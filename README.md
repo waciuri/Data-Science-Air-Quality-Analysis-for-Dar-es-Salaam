@@ -1,6 +1,6 @@
-Air Quality Analysis Project
+**Air Quality Analysis Project**
 
- Overview
+ **Overview**
 This project is a data analysis assignment designed to explore and process air quality data using Python and a MongoDB database.
 The analysis is conducted within a Jupyter Notebook environment, focusing specifically on:
 Connecting to a MongoDB database.
@@ -8,7 +8,7 @@ Querying and exploring air quality data, such as finding distinct measurement si
 Analyzing air quality metrics like PM2.5 Level.
 Generating visualizations (implied by the use of Plotly configurations within the notebook's HTML export).
 
- Getting Started
+ **Getting Started**
 Prerequisites
 To run this project, you will need:
 Python (3.x recommended).
@@ -23,13 +23,13 @@ Bash
 pip install pymongo
 
 
-How to Run the Analysis
+**How to Run the Analysis**
 Open the Notebook: Open the main project file (Air_quality_analysis.ipynb - assuming the HTML was exported from this file) in a Jupyter environment.
 Configure Database Host: Locate the cell for connecting to MongoDB and update the host variable with the correct IP address of your MongoDB machine.
 Note: The notebook contains a warning that the IP address is dynamic and must be checked before proceeding.
 Execute Cells: Run all the notebook cells in sequential order to perform the data connection, exploration, and analysis.
 
- Data Summary
+ **Data Summary**
 The notebook begins by connecting to the specified database and performing initial exploration tasks:
 Database: air-quality
 Collection: dar-es-salaam
